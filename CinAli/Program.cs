@@ -6,7 +6,7 @@ for (int i = 0; i < dotMatris.GetLength(0); i++)
         dotMatris[i, j] = ' ';
     }
 }
-//Kafa çizimi
+//Kafa çizimi //
 
 KafaCiz();
 GovdeCizimi();
