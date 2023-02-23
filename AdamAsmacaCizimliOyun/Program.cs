@@ -11,9 +11,11 @@ do
         var sonuc = game.TahminYap(Console.ReadLine()); //Hata olduğunda kullanıcıya ses cıkarır.
         if (!sonuc) Console.Beep(5100, 300);
     } while (game.OyunAktifMi());
+    Console.WriteLine(game.EkraniYaz());
     if (game.HakKontrol() > 0)
     {
         Console.WriteLine(game.SeciliSoru);
+
         Console.WriteLine("Tebrikler bildiniz");
         Console.WriteLine($"Puanınız : { game.PuanKontrol()}");
     }
