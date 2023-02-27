@@ -21,5 +21,11 @@ namespace SayiyiYaziyaCevirmeForm
                 _girilenSayi  = value;
             }
         }
+        public override string ToString()
+        {
+            return $"{this.GirilenSayi}"; 
+        }
     }
+
+   
 }

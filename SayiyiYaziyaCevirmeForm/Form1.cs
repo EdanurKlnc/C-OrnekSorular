@@ -18,6 +18,9 @@ namespace SayiyiYaziyaCevirmeForm
             {
                 Sayi sayi = new Sayi();
                 sayi.GirilenSayi = txtSayiGiriniz.Text;
+                
+                ltsSayOkunusu.Items.Add(sayi);  
+
 
             }
             catch (Exception ex)
@@ -27,9 +30,6 @@ namespace SayiyiYaziyaCevirmeForm
 
 
         }
-        public override string ToString()
-        {
-            return $"{this.txtSayiGiriniz}";
-        }
+       
     }
 }
