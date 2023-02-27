@@ -11,8 +11,7 @@ namespace SayiyiYaziyaCevirmeForm
             get => _girilenSayi;
             set
             {
-                if (value.Length != 10)
-                    throw new Exception("Telefon Numarası 10 haneli olmalıdır");
+               
                 foreach (char harf in value)
                 {
                     if (!char.IsDigit(harf))
@@ -23,6 +22,7 @@ namespace SayiyiYaziyaCevirmeForm
         }
         public override string ToString()
         {
+            
             return $"{this.GirilenSayi}"; 
         }
     }
