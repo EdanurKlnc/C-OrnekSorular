@@ -38,7 +38,6 @@ namespace SayiyiYaziyaCevirmeForm
                     {
                         try
                         {
-                            Console.WriteLine(mesaj);
                             int girilenSayi = int.Parse(Console.ReadLine());
                             if (girilenSayi < baslangic || girilenSayi > bitis)
                                 throw new Exception();

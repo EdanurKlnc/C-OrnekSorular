@@ -15,7 +15,7 @@ namespace SayiyiYaziyaCevirmeForm
                 foreach (char harf in value)
                 {
                     if (!char.IsDigit(harf))
-                        throw new Exception("Telefon Numarası sadece rakamlardan oluşmalıdır");
+                        throw new Exception("rakamlardan oluşmalıdır");
                 }
                 _girilenSayi  = value;
             }
