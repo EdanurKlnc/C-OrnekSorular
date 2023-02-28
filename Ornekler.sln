@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdamAsmacaCizimliOyun", "Ad
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.GünÖdev", "6.GünÖdev", "{3D3AF70D-8AD3-4CF6-B9C0-9DD43D48D3BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SayiyiYaziyaCevirmeForm", "SayiyiYaziyaCevirmeForm\SayiyiYaziyaCevirmeForm.csproj", "{86730B7E-B966-4DD3-98D6-A17D3129271B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SayiyiYaziyaCevirmeForm", "SayiyiYaziyaCevirmeForm\SayiyiYaziyaCevirmeForm.csproj", "{86730B7E-B966-4DD3-98D6-A17D3129271B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.GünÖdev", "7.GünÖdev", "{D49FF225-077C-47BD-B9FE-035E663A60C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerIleKronometre", "TimerIleKronometre\TimerIleKronometre.csproj", "{C59F0BBC-1E4A-4BAE-B2FE-D369556F9022}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,10 @@ Global
 		{86730B7E-B966-4DD3-98D6-A17D3129271B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86730B7E-B966-4DD3-98D6-A17D3129271B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86730B7E-B966-4DD3-98D6-A17D3129271B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59F0BBC-1E4A-4BAE-B2FE-D369556F9022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59F0BBC-1E4A-4BAE-B2FE-D369556F9022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59F0BBC-1E4A-4BAE-B2FE-D369556F9022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59F0BBC-1E4A-4BAE-B2FE-D369556F9022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,7 @@ Global
 		{0EB6C641-879E-47F2-A376-3141CA9B5616} = {8B6A972F-6ED0-4BFF-AC1A-6EC6300F5868}
 		{C774BBC7-E594-4778-8B16-A9872158E9E1} = {8B6A972F-6ED0-4BFF-AC1A-6EC6300F5868}
 		{86730B7E-B966-4DD3-98D6-A17D3129271B} = {3D3AF70D-8AD3-4CF6-B9C0-9DD43D48D3BE}
+		{C59F0BBC-1E4A-4BAE-B2FE-D369556F9022} = {D49FF225-077C-47BD-B9FE-035E663A60C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4402E5E-5821-45DF-90A6-99388D771D6A}
