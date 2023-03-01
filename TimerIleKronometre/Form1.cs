@@ -19,6 +19,16 @@ namespace TimerIleKronometre
 
             timer.Enabled = true;
             // btnBasla.Text = "Durdur";
+            /* 
+             if(calýsýyorMu)
+            {
+            tmr.Start();
+            btnBasla.Text ="Durdur";
+            }else{
+            tmr.Stop();
+            btnBasla.Text="Baþlat";
+            }
+             */
 
         }
 
@@ -39,8 +49,6 @@ namespace TimerIleKronometre
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-
-
             //PadLeft --> Sayýnýn kaç basamaklý yazýlacaðýna karar veririz
             txt.Text = dakika.ToString().PadLeft(2, '0') + ":" + saniye.ToString().PadLeft(2, '0') + ":" + salise.ToString().PadLeft(3, '0');
             if (salise == 60)
@@ -59,18 +67,26 @@ namespace TimerIleKronometre
 
             }
             salise++;
-            /*
-            //5 er artýrarak progressbarý ilerletiyoruz
-            progressBar.Value = progressBar.Value + 5;
-            label1.Text = progressBar.Value.ToString();
-            if(progressBar.Value == 100)
-            {
-                Application.Exit();
-            }*/
         }
+
+        /*
+        //5 er artýrarak progressbarý ilerletiyoruz
+        progressBar.Value = progressBar.Value + 5;
+        label1.Text = progressBar.Value.ToString();
+        if(progressBar.Value == 100)
+        {
+            Application.Exit();
+        }*/
+
+        /*
 
         /////////////// GERÝ SAYIM //////////////////
         int geriSayimDakika = 0, geriSayimSaniye = 60;
+
+        private void txtGeriSayimGösterge_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private void btnGeriSayimBaþla_Click(object sender, EventArgs e)
         {
@@ -96,7 +112,8 @@ namespace TimerIleKronometre
                 }
 
             }
-            geriSayimDakika--;
+            geriSayimDakika--; 
+        }
             /*
             //5 er artýrarak progressbarý ilerletiyoruz
             progressBar.Value = progressBar.Value + 5;
@@ -105,7 +122,7 @@ namespace TimerIleKronometre
             {
                 Application.Exit();
             }*/
-        }
+
         /*
                 int geriSayimDakika = 0, geriSayimSaniye = 60;
 
