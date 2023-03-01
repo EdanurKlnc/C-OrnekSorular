@@ -18,6 +18,7 @@ namespace TimerIleKronometre
         {
 
             timer.Enabled = true;
+           //btnBasla.FlatStyle = FlatStyle.Flat;  -->Butona týklama efeki verir
             // btnBasla.Text = "Durdur";
             /* 
              if(calýsýyorMu)
@@ -34,6 +35,7 @@ namespace TimerIleKronometre
 
         private void btnSifirla_Click(object sender, EventArgs e)
         {
+
             dakika = 0;
             saniye = 0;
             salise = 0;
@@ -67,6 +69,7 @@ namespace TimerIleKronometre
 
             }
             salise++;
+
         }
 
         /*
